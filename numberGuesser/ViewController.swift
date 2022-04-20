@@ -39,6 +39,14 @@ class ViewController: UIViewController {
                 view.backgroundColor = UIColor(red: CGFloat(colorValue/255.0), green: 0, blue: 0, alpha: 1)
             }
         }
+        resultLabel.alpha = 0
+        UIView.animate(withDuration: 0.5) {
+            self.resultLabel.alpha = 1
+        } completion: { (didComplete) in
+            UIView.animate(withDuration: 2) {
+                self.resultLabel.alpha = 0
+            }
+        }
     }
     
     @IBAction func setGuess(_ sender: UISlider) {
