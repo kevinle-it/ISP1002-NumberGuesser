@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Congratulations"; ObjectID = "1hj-ah-s0r"; */
+"1hj-ah-s0r.text" = "Félicitations";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2Vu-VI-NVF"; */
+"2Vu-VI-NVF.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "KOX-eT-JL3"; */
+"KOX-eT-JL3.text" = "???";
+
+/* Class = "UILabel"; text = "Use the slider to Guess"; ObjectID = "RsU-7T-s7S"; */
+"RsU-7T-s7S.text" = "Utilisez le curseur pour deviner";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "U9e-EY-hbT"; */
+"U9e-EY-hbT.text" = "0";
+
+/* Class = "UISegmentedControl"; adH-UY-qyb.segmentTitles[0] = "easy"; ObjectID = "adH-UY-qyb"; */
+"adH-UY-qyb.segmentTitles[0]" = "facile";
+
+/* Class = "UISegmentedControl"; adH-UY-qyb.segmentTitles[1] = "medium"; ObjectID = "adH-UY-qyb"; */
+"adH-UY-qyb.segmentTitles[1]" = "moyen";
+
+/* Class = "UISegmentedControl"; adH-UY-qyb.segmentTitles[2] = "hard"; ObjectID = "adH-UY-qyb"; */
+"adH-UY-qyb.segmentTitles[2]" = "difficile";
