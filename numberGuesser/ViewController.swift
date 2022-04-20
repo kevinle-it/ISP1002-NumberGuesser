@@ -57,19 +57,23 @@ class ViewController: UIViewController {
         switch sender.selectedSegmentIndex {
         case 0:
             guessSlider.maximumValue = 10
+            guessSlider.tintColor = .systemBlue
         case 1:
             guessSlider.maximumValue = 100
+            guessSlider.tintColor = .systemYellow
         case 2:
             guessSlider.maximumValue = 1000
+            guessSlider.tintColor = .systemPurple
         default:
             guessSlider.maximumValue = 10
+            guessSlider.tintColor = .systemBlue
         }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         resultLabel.text = ""
-
+        guessSlider.tintColor = .systemBlue
     }
 
 
