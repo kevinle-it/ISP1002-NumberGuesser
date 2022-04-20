@@ -22,10 +22,10 @@ class ViewController: UIViewController {
         answerLabel.text = String(answerVal)
         
         if(answerVal == guess){
-            resultLabel.text = "congratulations"
+            resultLabel.text = NSLocalizedString("congratulations", comment: "Congratulate the user who guessed the correct number")
             view.backgroundColor = UIColor(red: 0, green: 1, blue: 0, alpha: 1)
         } else {
-            resultLabel.text = "better luck next time"
+            resultLabel.text = NSLocalizedString("better luck next time", comment: "Good luck the user who guessed an incorrect number")
             let midVal = Double(maxVal) / 2
             let distance = Double(abs(guess-answerVal))
             var colorValue = 255*(1-(distance/Double(maxVal)))

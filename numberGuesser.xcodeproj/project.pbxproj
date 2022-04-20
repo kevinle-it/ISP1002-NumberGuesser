@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4AE7CCA2811AE2A0022093F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4AE7CCC2811AE2A0022093F /* Localizable.strings */; };
 		DB6752B82804F52900986080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6752B72804F52900986080 /* AppDelegate.swift */; };
 		DB6752BA2804F52900986080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6752B92804F52900986080 /* SceneDelegate.swift */; };
 		DB6752BC2804F52900986080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6752BB2804F52900986080 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D4AE7CC42811A7E00022093F /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Main.strings"; sourceTree = "<group>"; };
+		D4AE7CCB2811AE2A0022093F /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DB6752B42804F52900986080 /* numberGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numberGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6752B72804F52900986080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6752B92804F52900986080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				DB6752B72804F52900986080 /* AppDelegate.swift */,
 				DB6752B92804F52900986080 /* SceneDelegate.swift */,
 				DB6752BB2804F52900986080 /* ViewController.swift */,
+				D4AE7CCC2811AE2A0022093F /* Localizable.strings */,
 				DB6752BD2804F52900986080 /* Main.storyboard */,
 				DB6752C02804F52A00986080 /* Assets.xcassets */,
 				DB6752C22804F52A00986080 /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6752C42804F52A00986080 /* LaunchScreen.storyboard in Resources */,
+				D4AE7CCA2811AE2A0022093F /* Localizable.strings in Resources */,
 				DB6752C12804F52A00986080 /* Assets.xcassets in Resources */,
 				DB6752BF2804F52900986080 /* Main.storyboard in Resources */,
 			);
@@ -148,6 +152,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D4AE7CCC2811AE2A0022093F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE7CCB2811AE2A0022093F /* fr-CA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		DB6752BD2804F52900986080 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
