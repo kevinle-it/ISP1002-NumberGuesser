@@ -23,8 +23,21 @@ class ViewController: UIViewController {
         
         if(answerVal == guess){
             resultLabel.text = "congratulations"
+            view.backgroundColor = UIColor(red: 0, green: 1, blue: 0, alpha: 1)
         } else {
             resultLabel.text = "better luck next time"
+            let midVal = Double(maxVal) / 2
+            let distance = Double(abs(guess-answerVal))
+            var colorValue = 255*(1-(distance/Double(maxVal)))
+            // Set lower limit for the color value to prevent dark or black screen
+            if colorValue < 80 {
+                colorValue = 80
+            }
+            if distance <= midVal {
+                view.backgroundColor = UIColor(red: 0, green: CGFloat(colorValue/255.0), blue: 0, alpha: 1)
+            } else {
+                view.backgroundColor = UIColor(red: CGFloat(colorValue/255.0), green: 0, blue: 0, alpha: 1)
+            }
         }
     }
     
